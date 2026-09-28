@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proton | Proker</title>
+</head>
+<body>
+    <header>
+        <img src="../assets/img/logo.png" alt="Logo KPM Universitas Telkom" width="100">
+        <p>Korps Protokol Mahasiswa <br> Universitas Telkom</p>
+        <p>Raditya Atallahasyrif Rachmadie <br> Kepala Departemen Internal</p>
+        <a href="../index.html">Log out</a>
+    </header>
+
+    <aside>
+        <nav>
+            <a href="home.html">Dashboard</a>
+            <a href="proker.html">Proker</a>
+            <a href="penugasan.html">Penugasan</a>
+        </nav>
+    </aside>
+    
+    <main>
+        <h1>Daftar Program Kerja</h1>
+        <form action="">
+            <label for="nama">Nama Kegiatan</label>
+            <input type="text" id="nama">
+            <label for="departemen">Departemen</label>
+            <select name="departemen" id="departemen">
+                <option value="" disabled selected>==Pilih departemen==</option>
+                <option value="po">PO</option>
+                <option value="internal">Internal</option>
+                <option value="psdm">PSDM</option>
+                <option value="kominfo">Kominfo</option>
+                <option value="eksternal">Eksternal</option>
+            </select>
+            <label for="ketuplak">Ketuplak</label>
+            <input type="text" id="ketuplak">
+            <input type="submit">
+        </form>
+
+        <table border="1" >
+            <tr>
+                <th>No.</th>
+                <th>Nama Kegiatan</th>
+                <th>Departemen</th>
+                <th>Ketuplak</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Rapat Triwulan III</td>
+                <td>Internal</td>
+                <td>Shabrina Ammara</td>
+                <td>Presentasi KKA</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Open Recruitment KPM</td>
+                <td>PSDM</td>
+                <td>Rehan AF</td>
+                <td>On-Going</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Pemilihan Ketua Umum</td>
+                <td>Internal</td>
+                <td>Meisya Azzahra</td>
+                <td>Proposal</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Donor Darah</td>
+                <td>Eksternal</td>
+                <td>Nabil Rae Keefea</td>
+                <td>On-Going</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>River Clean Up</td>
+                <td>Eksternal</td>
+                <td>Sadid Nur Samdya Adabi</td>
+                <td>On-Going</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
